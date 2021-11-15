@@ -1,0 +1,9 @@
+funcion_numero_doble,route,juego,rutas,constantes_parking
+funciones_1,contador_diccionario2,listas,tuplas,contador_diccionario
+para_borrar,referencia_valor,bcucles,diccionarios,palindromo
+listas2,cortar_cadena,ejercicio_vectores,diccionarios_2,diccionario_2
+condicionales,importe,ejercicio_rutas1,listas3,operaciones_listas
+ejercicio_rutas,bucle_cadena,20*20,notas,nada
+variables,holamundo,ejemplo_funciones_1,ficheros_2,ejercicio_rutas2
+fecha_nacimiento,matriz,comparar_listas,settings,dic_personas
+genera_equipos,fichero_1
