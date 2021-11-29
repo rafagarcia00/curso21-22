@@ -1,9 +1,11 @@
 # contar hombres y mujeres vivos y muertos
 
-
+import os
 import csv
 import pprint
 
+
+os.system('clear')
 ruta = '/home/rafa/codigo/curso21-22/csv/'
 
 # 1 leer diccionario
@@ -27,13 +29,15 @@ def procesar_csv():
     for p in pasajeros:
         if p ['Sex'] == 'male' and p['Survived'] == '1':
             h_v += 1
-        if p ['Sex'] == 'male' and not p['Survived'] == '0':
+        if p ['Sex'] == 'male' and not p['Survived'] == '1':
             h_m += 1    
         if p ['Sex'] == 'female' and p['Survived'] == '1':
             m_v += 1
-        if p ['Sex'] == 'female' and not p['Survived'] == '0':
+        if p ['Sex'] == 'female' and not p['Survived'] == '1':
             m_m += 1    
             hombres.append(p['Survived'])
+            mujeres.append(p['Survived'])
+            
 
     return (h_m, h_v, m_v, m_m)
 resultado =  procesar_csv()
