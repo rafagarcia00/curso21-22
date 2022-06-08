@@ -5,14 +5,15 @@ el programa termina cuando se introduce un espacio
 
 def letra():
     seguir = True
-    vocal = input('introduce una letra: ')
 
     while seguir:
+        vocal = input('introduce una letra: ')
+
         if vocal.upper() == 'A' or vocal.upper() == 'E' or vocal.upper() == 'I' or vocal.upper() == 'O' or vocal.upper() == 'U':
-            return 'VOCAL'
-        if vocal.upper == ' ':
-            return False
+            print('VOCAL')
+        elif vocal == ' ':
+            return 'fin del bucle'
         else:
-            return 'NO VOCAL'
+            print('NO VOCAL')
 
 print(letra()) 
